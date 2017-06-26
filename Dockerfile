@@ -1,4 +1,4 @@
-FROM centos:26062017-updated
+FROM tennixpl/centosbdr:0.0.1
 
 ################################################
 ## Environment Variables #######################
