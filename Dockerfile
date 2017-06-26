@@ -1,4 +1,4 @@
-FROM tennixpl/centosbdr:0.0.1
+FROM centos:7.3.1611
 
 ################################################
 ## Environment Variables #######################
@@ -8,7 +8,8 @@ ENV POSTGRES_USER=postgres
 ENV PGDATA=/database
 ENV MY_IP_LOC=localhost
 ENV MY_PORT=5432
-ENV CONFIG_FILES_LOC=/configs_to_ingest
+ENV CONFIG_FILES_LOC=/configsToIngest
+
 RUN mkdir $CONFIG_FILES_LOC
 
 
